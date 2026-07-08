@@ -20,10 +20,9 @@ li {
   list-style: none;
 }
 .wrapper {
-  max-width: 1186px;
+  max-width: 1185px;
   margin: 0 auto;
   padding: 0;
-  text-align: center;
 }
 .hidden {
   display: none;
@@ -53,7 +52,7 @@ header
   background-color: #fff;
 }
 .site-title {
-  width: 181px;
+  width: 180px;
   padding: 4.5px 0;
   line-height: 1px;
 }
