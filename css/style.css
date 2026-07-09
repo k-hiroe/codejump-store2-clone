@@ -20,9 +20,9 @@ li {
   list-style: none;
 }
 .wrapper {
-  max-width: 1185px;
+  max-width: 1360px;
   margin: 0 auto;
-  padding: 0;
+  padding: 0 40px;
 }
 .hidden {
   display: none;
@@ -68,7 +68,7 @@ header
   top: 0;
   display: flex;
   justify-content: space-between;
-  padding: 25px 0;
+  padding: 25px 40px;
   background-color: #fff;
 }
 .site-title {
@@ -196,4 +196,28 @@ footer
 #footer p {
   padding-top: 2.5px;
   font-size: 10px;
+}
+
+/*
+Responsive
+================================================ */
+@media screen and (max-width: 900px) {
+  /* TOP */
+  #top {
+    margin-bottom: 101.5px;
+  }
+  #top #product-list li {
+    grid-template-columns: 1fr 1fr;
+    gap: 40px 20px;
+  }
+
+  /* footer */
+  #footer div {
+    flex-direction: column;
+  }
+  #footer p {
+    padding-top: 4px;
+    margin-bottom: 1px;
+    font-size: 10px;
+  }
 }
