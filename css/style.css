@@ -31,13 +31,32 @@ li {
 /*
 nav
 ================================================ */
-#nav{
-  position: relative;
-}
 #nav li{
-  position: absolute;
+  position: fixed;
   top: 0;
-  left: 0;
+  left: 50px;
+  display: flex;
+  flex-direction: column;
+  z-index: 3;
+  margin-top: 36px;
+  font-size: 14px;
+  translate: -100vw 0;
+}
+#nav li:nth-child(2) {
+  top: 34px;
+}
+#nav li:nth-child(3) {
+  top: 68px;
+}
+#nav li:nth-child(4) {
+  top: 102px;
+}
+#nav li a {
+  color: #fff;
+  transition: .3s;
+}
+#nav li a:hover {
+  opacity: .7;
 }
 
 /*
@@ -60,17 +79,37 @@ header
 .site-title a {
   display: block;
 }
-#hamburger div{
+
+/*
+hamburger-menu
+================================================ */
+#menu-screen {
+  position: fixed;
+  inset: 0;
+  opacity: 0.8;
+  background-color: black;
+}
+#bar1, #bar2{
   width: 30px;
   height: 2px;
   background-color: #383e45;
 }
-#hamburger div:first-child {
+#bar1 {
   top: 0;
+  transition: .5s;
 }
-#hamburger div:last-child {
+#bar2 {
   bottom: 0;
   margin-top: 6px;
+  transition: .5s;
+}
+#bar1.active {
+  transform: translateY(4px) rotate(-45deg);
+  background-color: #fff;
+}
+#bar2.active {
+  transform: translateY(-4px) rotate(45deg);
+  background-color: #fff;
 }
 
 /*
