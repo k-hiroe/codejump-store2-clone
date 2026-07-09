@@ -76,6 +76,9 @@ header
 /*
 TOP
 ================================================ */
+#top {
+  margin-bottom: 120px;
+}
 #top li {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -103,4 +106,31 @@ TOP
   text-align: center;
   font-size: 14px;
   color: #383e45;
+}
+
+/*
+footer
+================================================ */
+#footer {
+  margin-bottom: 19px;
+}
+#footer div {
+  display: flex;
+  justify-content: space-between;
+}
+#footer ul {
+  display: flex;
+}
+#footer a {
+  color: #383e45;
+  margin-right: 30px;
+  font-size: 12px;
+  transition: all 0.5s;
+}
+#footer a:hover {
+  opacity: .7;
+}
+#footer p {
+  padding-top: 2.5px;
+  font-size: 10px;
 }
