@@ -243,6 +243,42 @@ ABOUT
 }
 
 /*
+COMPANY
+================================================ */
+#company {
+  max-width: 670px;
+  margin: 0;
+  margin-bottom: 120px;
+  font-size: 14px;
+}
+#company h1 {
+  margin-top: 40px;
+  margin-bottom: 30px;
+  font-size: 14px;
+  font-weight: normal
+}
+#company .company__content dl {
+  display: grid;
+  grid-template-columns: 180px 1fr;
+  margin-bottom: 20px;
+}
+#company .company__content dt,
+#company .company__content dd {
+  padding: 20px 10px;
+  border-bottom: 1px solid #d9d9d9;
+}
+#company .company__content dt:last-of-type,
+#company .company__content dd:last-of-type {
+  border-bottom-style: none;
+}
+#company .company__content dt {
+  grid-column: 1;
+}
+#company .company__content dd {
+  grid-column: 2;
+}
+
+/*
 footer
 ================================================ */
 #footer {
