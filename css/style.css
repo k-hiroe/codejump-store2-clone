@@ -180,7 +180,6 @@ ITEM
   margin-bottom: 60px;
 }
 #item .item__img {
-  /* flex: 1; */
   width: 400px;
 }
 #item .item__info {
@@ -296,6 +295,21 @@ Responsive
   #products #product-list li {
     grid-template-columns: 1fr 1fr;
     gap: 40px 20px;
+  }
+
+  /* Item */
+  #item .item__content {
+    flex-direction: column;
+    gap: 30px;
+  }
+  #item .item__img {
+    width: 100%;
+  }
+  #item .item__info--spec th {
+    padding-right: clamp(20px, 5vw, 80px);
+  }
+  #item a {
+    margin-bottom: 102px;
   }
 
   /* About */
