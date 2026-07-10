@@ -5,7 +5,6 @@ const menuScreen = document.getElementById('menu-screen');
 const bar1 = document.getElementById('bar1');
 const bar2 = document.getElementById('bar2');
 const navItems = document.querySelectorAll('#nav li');
-console.log(nav);
 const menuKeyframe = {
     duration: 500,
     easing: 'ease',
