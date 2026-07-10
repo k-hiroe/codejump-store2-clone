@@ -292,7 +292,7 @@ Responsive
   #products {
     margin-bottom: 101.5px;
   }
-  #products #product-list li {
+  #products #product-list {
     grid-template-columns: 1fr 1fr;
     gap: 40px 20px;
   }
