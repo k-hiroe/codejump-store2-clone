@@ -300,6 +300,31 @@ Responsive
     gap: 40px 20px;
   }
 
+  /* About */
+  #about {
+    margin-bottom: 131px;
+  }
+
+  /* Company */
+  #company {
+    margin-bottom: 100px;
+  }
+  #company .company__content dl {
+    display: block;
+  }
+  #company .company__content dt {
+    padding: 20px 0 0 10px;
+    border-bottom-style: none;
+  }
+  #company .company__content dd {
+    padding: 10px 0 20px 10px;
+  }
+  #company iframe {
+    max-width: 600px;
+    width: 100%;
+    margin: 0;
+  }
+
   /* footer */
   #footer div {
     flex-direction: column;
