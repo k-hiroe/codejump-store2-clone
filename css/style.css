@@ -24,6 +24,12 @@ li {
   margin: 0 auto;
   padding: 0 40px;
 }
+.section-title {
+  margin-top: 40px;
+  margin-bottom: 30px;
+  font-size: 14px;
+  font-weight: normal
+}
 .hidden {
   display: none;
 }
@@ -150,12 +156,6 @@ TOP
 /*
 PRODUCTS
 ================================================ */
-#top h1 {
-  margin-top: 40px;
-  margin-bottom: 30px;
-  font-size: 14px;
-  font-weight: normal;
-}
 #top .page-list {
   display: flex;
   justify-content: center;
@@ -174,12 +174,6 @@ PRODUCTS
 /*
 ITEM
 ================================================ */
-#item h1 {
-  margin-top: 40px;
-  margin-bottom: 30px;
-  font-size: 14px;
-  font-weight: normal
-}
 #item .item__content {
   display: flex;
   justify-content: left;
@@ -230,12 +224,6 @@ ABOUT
   margin: 0;
   margin-bottom: 150px;
 }
-#about h1 {
-  margin-top: 40px;
-  margin-bottom: 30px;
-  font-size: 14px;
-  font-weight: normal
-}
 #about .about__text p {
   margin-bottom: 30px;
   font-size: 14px;
@@ -250,12 +238,6 @@ COMPANY
   margin: 0;
   margin-bottom: 120px;
   font-size: 14px;
-}
-#company h1 {
-  margin-top: 40px;
-  margin-bottom: 30px;
-  font-size: 14px;
-  font-weight: normal
 }
 #company .company__content dl {
   display: grid;
